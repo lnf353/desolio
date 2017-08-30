@@ -1,0 +1,73 @@
+
+
+.title {
+    padding:195px 0 0 0;
+    text-align:center;
+    font-family: "Lato Light",Arial;
+    font-size:16px;
+    color:#fff;
+    text-rendering: optimizeLegibility;
+    
+    
+    &__company-name:before {
+	content:"\f1db";
+	font-family: FontAwesome;
+	font-size:small;
+	color:#fff;
+	padding-right:15px;
+	
+    }
+    
+    &__company-name:after {
+	content:"\f1db";
+	font-family: FontAwesome;
+	font-size:small;
+	color:#fff;
+	padding-left:16px;
+	
+    }
+    
+    &__company-preview:after {
+	content:url(\../img/header/lines.png);
+	padding: 0 0 0 20px ;
+	position:relative;
+	top:-2px;
+    }
+    
+    &__company-preview:before {
+	content:url(\../img/header/lines.png);
+	padding-right:20px;
+	position:relative;
+	top:-2px;
+    }
+    
+    &__company-does {
+	font-size:50px;
+	font-family:'Lato Black', Arial;
+	text-transform:uppercase;
+	margin:20px 0;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

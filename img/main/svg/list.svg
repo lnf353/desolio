@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:x="adobe:ns:meta/"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg20"
+   version="1.1"
+   viewBox="0 0 32 32"
+   height="32"
+   width="32">
+  <metadata
+     id="metadata13">
+<?xpacket begin="ÿ" id="W5M0MpCehiHzreSzNTczkc9d"?>    <x:xmpmeta
+       x:xmptk="Adobe XMP Core 5.6-c138 79.159824, 2016/09/14-01:09:01        ">
+      <metadata>
+        <rdf:RDF>
+          <rdf:Description
+             rdf:about="" />
+          <cc:Work
+             rdf:about="">
+            <dc:format>image/svg+xml</dc:format>
+            <dc:type
+               rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+            <dc:title></dc:title>
+          </cc:Work>
+        </rdf:RDF>
+      </metadata>
+    </x:xmpmeta>
+<?xpacket end="w"?>  </metadata>
+  <defs
+     id="defs17">
+    <style
+       id="style15">
+      .cls-1 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <path
+     transform="translate(-751 -1011)"
+     d="M755,1023.01a4,4,0,1,1-4,4A4,4,0,0,1,755,1023.01Zm0,1.61a2.39,2.39,0,1,1-2.389,2.39A2.389,2.389,0,0,1,755,1024.62Zm8,1.44V1028h20v-1.94H763Zm0-12V1016h20v-1.94H763Zm-0.063,24V1040H783v-1.94H762.937ZM755,1035.01a4,4,0,1,1-4,4A4,4,0,0,1,755,1035.01Zm0,1.61a2.39,2.39,0,1,1-2.389,2.39A2.389,2.389,0,0,1,755,1036.62Zm0-25.61a4,4,0,1,1-4,4A4,4,0,0,1,755,1011.01Zm0,1.61a2.39,2.39,0,1,1-2.389,2.39A2.389,2.389,0,0,1,755,1012.62Z"
+     class="cls-1"
+     id="list" />
+</svg>

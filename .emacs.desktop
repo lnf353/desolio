@@ -1,0 +1,30 @@
+;; -*- mode: emacs-lisp; coding: emacs-mule; -*-
+;; --------------------------------------------------------------------------
+;; Desktop File for Emacs
+;; --------------------------------------------------------------------------
+;; Created Sat Aug 26 20:07:18 2017
+;; Desktop file format version 206
+;; Emacs version 24.5.1
+
+;; Global section:
+(setq desktop-saved-frameset [frameset 1 (22945 43718 405382 818000) (desktop . "206") "ingph@debian" nil nil ((((font-backend xft x) (font . "-adobe-Source Code Pro-normal-normal-normal-*-19-*-*-*-m-0-iso10646-1") (font-parameter . "Source Code Pro Medium-14") (border-width . 0) (internal-border-width . 0) (right-divider-width . 0) (bottom-divider-width . 0) (vertical-scroll-bars) (foreground-color . "#657b83") (background-color . "#fdf6e3") (mouse-color . "#eff0f1") (border-color . "black") (screen-gamma) (line-spacing) (left-fringe . 11) (right-fringe . 11) (scroll-bar-foreground . "#eff0f1") (scroll-bar-background . "grey75") (menu-bar-lines . 0) (tool-bar-lines . 0) (title) (wait-for-wm . t) (fullscreen) (tool-bar-position . top) (icon-type . t) (auto-raise) (auto-lower) (cursor-type . box) (scroll-bar-width . 0) (alpha) (horizontal-scroll-bars . t) (display-type . color) (background-mode . light) (cursor-color . "#657b83") (sticky) (environment) (frameset--id . "B198-49E6-3CF5-119B") (frameset--mini t . t) (height . 41) (width . 100) (modeline . t) (minibuffer . t) (unsplittable) (left . 0) (top . 0) (icon-name) (visibility . t) (display . ":0") (explicit-name)) ((min-height . 4) (min-width . 10) (min-height-ignore . 3) (min-width-ignore . 4) (min-height-safe . 1) (min-width-safe . 2) (min-pixel-height . 96) (min-pixel-width . 110) (min-pixel-height-ignore . 72) (min-pixel-width-ignore . 44) (min-pixel-height-safe . 24) (min-pixel-width-safe . 22)) leaf (pixel-width . 1122) (pixel-height . 960) (total-width . 102) (total-height . 40) (normal-height . 1.0) (normal-width . 1.0) (buffer "index.html" (selected . t) (hscroll . 0) (fringes 11 11 nil) (margins 2) (scroll-bars 0 0 t nil) (vscroll . 0) (dedicated) (point . 301) (start . 1))))])
+(setq desktop-missing-file-warning nil)
+(setq tags-file-name nil)
+(setq tags-table-list nil)
+(setq search-ring nil)
+(setq regexp-search-ring nil)
+(setq register-alist nil)
+(setq file-name-history '("/var/www/html/desolio.com/" "/var/www/html/desolio.com/index.html"))
+
+;; Buffer section -- buffers listed in same order as in buffer list:
+(desktop-create-buffer 206
+  "/var/www/html/desolio.com/index.html"
+  "index.html"
+  'html-mode
+  '(visual-line-mode linum-mode projectile-mode auto-complete-mode yas-minor-mode emmet-mode)
+  301
+  '(294 nil)
+  nil
+  nil
+  '((buffer-file-coding-system . utf-8-unix) (truncate-lines)))
+

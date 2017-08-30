@@ -1,0 +1,35 @@
+
+.logo-slider::before {
+    position:absolute;
+    font-size:30px;
+    content:"\f053";
+    font-family:FontAwesome;
+    top:85px;
+    left:-48px;
+    color:#546459;
+}
+
+.logo-slider::after {
+    position:absolute;
+    font-size:30px;
+    content:"\f054";
+    font-family:FontAwesome;
+    right:-48px;
+    bottom:118px;
+    color:#546459;
+}
+
+.logo-slider {
+    padding:50px 0 0 0;
+    width:860px;
+    margin:0 auto;
+    
+    &__list {
+	list-style-type:none;	    
+	width:1100px;
+	display:flex;
+	justify-content:space-around;
+	flex-direction:row;
+    }
+}
+

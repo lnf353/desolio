@@ -1,0 +1,43 @@
+
+.present-icons {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    width:620px;
+    margin:0 auto;
+    padding:83px 0 0 0;
+    text-decoration:none;
+    list-style-type:none;
+    
+    svg {
+	fill-rule: evenodd;
+	width:32px;
+	height:32px;
+    }
+       
+    svg:hover {
+	fill:#2980b9;
+	transition:all .25s;
+	transform: scale(1.2);
+    }
+    &__name {
+	font-family::"Open Sans",Arial;
+	margin:20px 0 0 0;
+	padding:0 2px 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

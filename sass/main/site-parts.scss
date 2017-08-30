@@ -1,0 +1,49 @@
+
+.site-parts {
+    font-family:"Open Sans";
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    background:#fff;
+    text-align:center;
+    height:110px;
+
+    &__link {
+	color:#7f8c8d;
+	font-size:15px;
+	text-decoration:none;
+	text-transform:uppercase;
+	width:auto;
+	
+    }
+    &__link:active {
+	color:#2980b9;
+    }
+    &__link:hover {
+	color:#2980b9;
+	transition: all .25s;
+    }
+            
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

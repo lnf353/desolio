@@ -2,7 +2,10 @@
 .header-container {
     background-color:#2f3030;
     height:650px;
-    
+    @media (max-width:360px) {
+	height:480px;
+	
+    }
 }
 
 

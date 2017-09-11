@@ -1,0 +1,37 @@
+.int-portfolio {
+    
+    text-align:center;
+    padding:40px 0 0 0;
+    
+     &__title {
+	font-size:44px;
+	font-family:"Lato Light",Arial;
+	
+	padding:0 0 22px 0;
+	margin:0 0 0 0;
+    }
+     &__short-description {
+	font-family:"Open Sans",Arial;
+	margin:0;
+	line-height:25px;
+	font-size:15px;
+	padding:18px 85px 0 85px;
+    }
+    
+    hr {
+	background-color:#626E62;
+	color:#626E62;
+	width:200px;
+    }
+    @media (max-width:360px) {
+	&__short-description {
+	    padding:18px 30px 0 30px;
+
+	    
+	}
+  
+ }
+}
+
+
+

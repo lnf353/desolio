@@ -1,0 +1,59 @@
+
+.callback-form {
+
+    &__name {
+	background-color:#edf1f2;
+	border:none;
+	width:100%;
+	height:40px;
+	margin:0 0 10px 0;
+	padding:0 0 0 10px;
+    }
+    &__email {
+	background-color:#edf1f2;
+	border:none;
+	width:100%;
+	height:40px;
+	margin:0 0 10px 0;
+	padding:0 0 0 10px;
+    }
+    &__area {
+	background-color:#edf1f2;
+	border:none;
+	height:220px;
+	width:100%;
+	margin:0 0 5px 0;
+	padding:10px 0 0 10px;
+    }
+    &__submit {
+	font-family:"Open Sans",Arial;
+	font-size:14px;
+	border:none;
+	background:#2980b9;
+	width:230px;
+	height:40px;
+	color:#fff;
+	text-transform:uppercase;
+    }
+    @media (max-width:767px) {
+	input {
+	    width:300px;
+	}
+	
+	&__area {
+	    width:300px;
+	}
+    }
+     @media (max-width:360px) {
+	 margin:0 0 0 8px;
+     }
+   
+    
+}
+
+
+
+
+
+
+

@@ -24,6 +24,16 @@
 	color:#626E62;
 	width:200px;
     }
+    @media (max-width:360px) {
+	&__title {
+	    font-size:36px;
+	}
+	&__short-description {
+	    padding:20px 30px 0 30px;
+	    font-size:16px;
+	    line-height:32px;
+	}
+	   }
 }
 
 

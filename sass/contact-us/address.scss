@@ -1,0 +1,57 @@
+
+.address {
+    width:460px;
+    &__title {
+	
+	margin:0 0 12px 0;
+	font-size:20px;
+    }
+    &__text {
+	color:#606060;
+	line-height:20px;
+	font-size:14px;
+	margin:0 0 20px 0;
+    }
+    &__contact-info {
+	color:#606060;
+	line-height:22px;
+	white-space:pre;
+    }
+    @media (max-width:767px) {
+	width:320px;
+    }
+    @media (max-width:360px) {
+	
+	margin:30px 0 0 8px;
+	
+    }
+}
+
+
+@media (max-width:767px) {
+    iframe {
+	width:320px;
+    }}
+ @media (max-width:360px) {
+     iframe {
+	 width:300px;
+     }
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

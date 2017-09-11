@@ -1,16 +1,13 @@
 
-
-
-
 .services-intro {
     text-align:center;
-    padding:70px 0 0 0;
+    padding:40px 0 0 0;
     
      &__title {
 	font-size:44px;
 	font-family:"Lato Light",Arial;
 	
-	padding:75px 0 22px 0;
+	padding:0 0 22px 0;
 	margin:0 0 0 0;
     }
      &__short-description {
@@ -26,6 +23,12 @@
 	color:#626E62;
 	width:200px;
     }
+    
+    @media (max-width:360px) {
+	&__short-description {
+	    padding:18px 30px 0 30px;
+	}
+     }
 }
 
 

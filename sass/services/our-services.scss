@@ -1,13 +1,61 @@
-
-
-
 .our-services {
+    font-family:"Lato Regular",Arial;
     display:flex;
-    flex-flow:wrap row;
+    flex-flow:wrap;
+    justify-content:space-between;
+
+    position:relative;
+    padding:55px 0 0 0;
+    margin-bottom: -35px;;
+    
     &__unit {
+	height:177px;
 	width:460px;
+	img {
+	    position:relative;
+	    float:left;
+	}
+	h3 {
+	    margin:0;
+	    padding:0 0 0 50px;
+	    font-weight:400;
+	}
+	p {
+	    color:#606060;
+	    margin:0;
+	    font-size:14px;
+	    line-height:22px;
+	    padding:9px 0 3px 50px;
+	}
 	
-   }
+    }
+    &__expand {
+	cursor:pointer;
+	padding:5px 0 0 50px;
+	font-size:14px;
+	color:#B1B1B1;
+	
+    }
+    @media (max-width:767px) {
+	&__unit {
+	    width:340px;
+	    height:200px;
+	    
+	}
+    }
+    @media (max-width:360px) {
+	&__unit {
+	    box-sizing:border-box;
+	    width:320px;
+	    height:auto;
+	    margin:15px 0;
+	   p {
+	       font-size:16px;
+	       line-height:27px;
+	    }
+	}
+     }
+
 }
 
 

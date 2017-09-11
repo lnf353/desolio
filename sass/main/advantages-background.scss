@@ -4,7 +4,15 @@
     position:relative;
     height:435px;
     width:auto;
+    z-index:0;
     background:url(../img/main/crossBackground.png) repeat;
+    
+    @media (max-width:766px) {
+	height:500px;
+    }
+    @media (max-width:360px) {
+	height:625px;
+	   }
 }
 
 

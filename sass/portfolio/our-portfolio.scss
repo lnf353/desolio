@@ -1,0 +1,62 @@
+.our-portfolio {
+    
+    font-family:"Open Sans",Arial;
+    display:flex;
+    flex-flow:wrap;
+    justify-content:space-between;
+    
+    padding:55px 0 0 0;
+    margin-bottom: -35px;;
+    
+    &__unit {
+	
+	margin:0 0 26px 0;
+	height:285px;
+	width:460px;
+	
+	img {
+	    width:460px;
+	    height:245px;
+	    position:relative;
+	    float:left;
+	}
+	figcaption {
+	    line-height:50px;
+	    height:295px;
+	    font-size:16px;
+	    text-align:center;
+	}
+
+    }
+    p {
+	margin:0;
+    }
+    @media (max-width:767px) {
+	&__unit {
+	    width:330px;
+	    height:230px;
+	    img {
+		height:200px;
+		width:330px;
+		
+	    }
+	    figcaption {
+		height:230px;
+	    }
+	}
+	}
+
+        @media (max-width:360px) {
+	    width:330px;
+	    height:auto;
+
+	    figcaption {
+		line-height:45px;
+	    }
+
+	    
+    }
+
+}
+
+

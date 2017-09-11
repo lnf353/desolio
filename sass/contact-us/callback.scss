@@ -1,0 +1,35 @@
+
+.callback {
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+
+    padding:54px 0 0 0;
+    
+    font-family:"Lato Regular",Arial;
+
+    @media (max-width:360px) {
+	flex-direction:column;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

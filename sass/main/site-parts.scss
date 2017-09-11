@@ -8,6 +8,7 @@
     background:#fff;
     text-align:center;
     height:110px;
+    transition: all .25s;
 
     &__link {
 	color:#7f8c8d;
@@ -15,8 +16,8 @@
 	text-decoration:none;
 	text-transform:uppercase;
 	width:auto;
-	
     }
+    
     &__link:active {
 	color:#2980b9;
     }
@@ -24,7 +25,25 @@
 	color:#2980b9;
 	transition: all .25s;
     }
-            
+
+    &--highlight-point {
+	color:#2980b9;
+    }
+    &--black-menu {
+	background-color:black;
+    }
+
+    @media (max-width:360px) {
+	flex-direction:column;
+	padding:30px 15px;
+	flex-wrap:wrap;
+	&__link {
+	    font-size:16px;
+	    padding:5px 0;
+	}
+	    }
+    
+    
 }
 
 

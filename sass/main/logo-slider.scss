@@ -7,6 +7,10 @@
     top:85px;
     left:-48px;
     color:#546459;
+    @media (max-width:360px) {
+	left:50px;
+	top:210px;
+    }
 }
 
 .logo-slider::after {
@@ -15,14 +19,22 @@
     content:"\f054";
     font-family:FontAwesome;
     right:-48px;
-    bottom:118px;
+    bottom:43px;
     color:#546459;
-}
 
+    @media (max-width:360px) {
+	right:50px;
+	bottom:109px;
+    }
+}
 .logo-slider {
     padding:50px 0 0 0;
     width:860px;
     margin:0 auto;
+    
+    &__wrapper {
+	overflow:hidden;
+    }
     
     &__list {
 	list-style-type:none;	    
@@ -30,6 +42,27 @@
 	display:flex;
 	justify-content:space-around;
 	flex-direction:row;
+    }
+    @media (max-width:767px) {
+	width:540px;
+	
+    }
+    @media (max-width:360px) {
+	width:340px;
+	&__list {
+	    width:340px;
+	    align-items:center;
+	    heigth:auto;
+	    flex-direction:column;
+	    flex-wrap:wrap;
+	    li {
+		padding:10px 0;
+	    }
+	    
+	}
+	&__wrapper {
+	    height:300px;
+	}
     }
 }
 

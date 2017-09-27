@@ -1,22 +1,9 @@
-.preloader {
-    position:absolute;
-    z-index:1000;
-    top:758px;
-    left:0;
-    width:100%;
-    height:100%;
-    background:white;
-    transition:all .15s;
 
-    &--hidden {
-	display:none;
-    }
-}
 
 .past-content {
-    
-    
-}
+    &__hid {
+    }  
+} 
 
 
 

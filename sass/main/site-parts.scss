@@ -1,4 +1,21 @@
 
+.changed-bg {
+    height:110px;
+    position:absolute;
+    z-index:2;
+    top:650px;
+    width:100%;
+    margin:0 auto;
+    transition: background-color .4s ease-in;
+    @media(max-width:765px ) {
+	top:500px;
+    }
+    @media (max-width:360px) {
+	top:500px;
+	height:170px;
+    }
+}
+
 .site-parts {
     font-family:"Open Sans";
     display:flex;
@@ -9,13 +26,16 @@
     text-align:center;
     height:110px;
     transition: all .25s;
+    z-index:1;
 
     &__link {
+	position:relative;
 	color:#7f8c8d;
 	font-size:15px;
 	text-decoration:none;
 	text-transform:uppercase;
 	width:auto;
+	z-index:300;
     }
     
     &__link:active {
@@ -42,27 +62,5 @@
 	    padding:5px 0;
 	}
 	    }
-    
-    
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

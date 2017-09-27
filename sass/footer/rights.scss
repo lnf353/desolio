@@ -6,11 +6,17 @@
     color:#909090;
     
     &__text {
+	margin:0;
 	font-size:12px;
 	text-align:right;
-	width:300px;
+	max-width:300px;
 	line-height:20px;
 	
+    }
+    @media(max-width:360px) {
+	&__text {
+	    display:none;
+	}
     }
 }
 

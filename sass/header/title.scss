@@ -44,6 +44,10 @@
 	text-transform:uppercase;
 	margin:20px 0;
     }
+    @media (max-width:765px) {
+	padding:70px 0 0 0;
+	
+    }
 
            @media (max-width:360px) {
 	       &__company-preview:after {
@@ -57,25 +61,4 @@
  
     
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
